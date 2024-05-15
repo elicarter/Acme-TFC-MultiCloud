@@ -1,10 +1,10 @@
 terraform {
-    #cloud {
-    #organization = "ACME-TFC-DEMO"
-      #workspaces {
-    #name = "GCP-Test"
-    #}
-  #}
+    cloud {
+    organization = "ACME-TFC-DEMO"
+      workspaces {
+    name = "Simple-TFC-MultiCloud"
+    }
+  }
      required_providers {
     google = {
       source = "hashicorp/google"
